@@ -20,7 +20,7 @@ const App = () => {
       <Testimonials />
       <Last />
 
-      {/* ✅ Table moved here — just above the Footer */}
+      
       {submittedData.length > 0 && (
         <div className="overflow-x-auto mt-10 px-6 mb-10">
           <table className="w-full md:w-3/4 mx-auto border border-gray-300">
